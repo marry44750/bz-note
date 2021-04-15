@@ -28,41 +28,41 @@
 
 - 登录页
 
-![login](https://github.com/marry44750/bz-note/blob/master/images/login.png)
+![login.png](https://i.loli.net/2021/04/15/lCJMqdTKycFVH4w.png)
 
 
 
 - 书籍页
 
-![](https://github.com/marry44750/bz-note/raw/master/images/bookList.png)
+![bookList.png](https://i.loli.net/2021/04/15/VgTGmj4UOP7rKQN.png)
 
-![](images/bookType.png)
+![bookType.png](https://i.loli.net/2021/04/15/2wmzr9LtlSPE3ZH.png)
 
-![](images/bookImport.png)
+![bookImport.png](https://i.loli.net/2021/04/15/1B2jWxclwRCFUeI.png)
 
 - 阅读页
 
-![](images/pdf1.png)
+![pdf1.png](https://i.loli.net/2021/04/15/HkqQRgoY1e4UtSG.png)
 
-![](images/pdf2.png)
+![pdf2.png](https://i.loli.net/2021/04/15/KLmVZXy5xwhoCIB.png)
 
-![](images/pdf3.png)
+![pdf3.png](https://i.loli.net/2021/04/15/1E6C8scBhTXQdWM.png)
 
-![](images/pdf4.png)
+![pdf4.png](https://i.loli.net/2021/04/15/UOv9MiV5HWXta3C.png)
 
 - 笔记页
 
-![](images/art1.png)
+![art1.png](https://i.loli.net/2021/04/15/3WZfYVw7zv6KGuR.png)
 
-![](images/art2.png)
+![art2.png](https://i.loli.net/2021/04/15/jPEYyiq1QdWmUOA.png)
 
 - 其他
 
-![](images/other1.png)
+![other1.png](https://i.loli.net/2021/04/15/fnhdtN5s7bTajvx.png)
 
 - 播放器
 
-  ![](images/music.png)
+![music.png](https://i.loli.net/2021/04/15/Iu9cUKnMTdkmPB4.png)
 
 #### 使用
 
