@@ -28,41 +28,41 @@
 
 - 登录页
 
-![login](D:\coding\bz-note-master\images\login.png)
+![login](..\images\login.png)
 
 
 
 - 书籍页
 
-![](D:\coding\bz-note-master\images\bookList.png)
+![](..\images\bookList.png)
 
-![](D:\coding\bz-note-master\images\bookType.png)
+![](..\images\bookType.png)
 
-![](D:\coding\bz-note-master\images\bookImport.png)
+![](..\images\bookImport.png)
 
 - 阅读页
 
-![](D:\coding\bz-note-master\images\pdf1.png)
+![](..\images\pdf1.png)
 
-![](D:\coding\bz-note-master\images\pdf2.png)
+![](..\images\pdf2.png)
 
-![](D:\coding\bz-note-master\images\pdf3.png)
+![](..\images\pdf3.png)
 
-![](D:\coding\bz-note-master\images\pdf4.png)
+![](..\images\pdf4.png)
 
 - 笔记页
 
-![](D:\coding\bz-note-master\images\art1.png)
+![](..\images\art1.png)
 
-![](D:\coding\bz-note-master\images\art2.png)
+![](..\images\art2.png)
 
 - 其他
 
-![](D:\coding\bz-note-master\images\other1.png)
+![](..\images\other1.png)
 
 - 播放器
 
-  ![](D:\coding\bz-note-master\images\music.png)
+  ![](..\images\music.png)
 
 #### 使用
 
