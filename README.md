@@ -1,6 +1,6 @@
 ## 搬砖阅读（PDF）项目
 
-​	我一后端开发，本着白嫖各种书籍的想法，瞎写着玩的，Base on  https://github.com/QianGuoqing/vue-evernote
+​	后端开发，本着白嫖各种书籍的想法，瞎写着玩的，Base on  https://github.com/QianGuoqing/vue-evernote
 
 搬砖的来。
 
