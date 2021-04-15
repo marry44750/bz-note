@@ -28,7 +28,7 @@
 
 - 登录页
 
-![login](images/login.png)
+![login](https://github.com/marry44750/bz-note/blob/master/images/login.png)
 
 
 
