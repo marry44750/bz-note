@@ -28,41 +28,41 @@
 
 - 登录页
 
-![login](https://github.com/marry44750/bz-note/tree/master/images/login.png)
+![login](images/login.png)
 
 
 
 - 书籍页
 
-![](https://github.com/marry44750/bz-note/tree/master/images/bookList.png)
+![](images/bookList.png)
 
-![](https://github.com/marry44750/bz-note/tree/master/images/bookType.png)
+![](images/bookType.png)
 
-![](https://github.com/marry44750/bz-note/tree/master/images/bookImport.png)
+![](images/bookImport.png)
 
 - 阅读页
 
-![](https://github.com/marry44750/bz-note/tree/master/images/pdf1.png)
+![](images/pdf1.png)
 
-![](https://github.com/marry44750/bz-note/tree/master/images/pdf2.png)
+![](images/pdf2.png)
 
-![](https://github.com/marry44750/bz-note/tree/master/images/pdf3.png)
+![](images/pdf3.png)
 
-![](https://github.com/marry44750/bz-note/tree/master/images/pdf4.png)
+![](images/pdf4.png)
 
 - 笔记页
 
-![](https://github.com/marry44750/bz-note/tree/master/images/art1.png)
+![](images/art1.png)
 
-![](https://github.com/marry44750/bz-note/tree/master/images/art2.png)
+![](images/art2.png)
 
 - 其他
 
-![](https://github.com/marry44750/bz-note/tree/master/images/other1.png)
+![](images/other1.png)
 
 - 播放器
 
-  ![](https://github.com/marry44750/bz-note/tree/master/images/music.png)
+  ![](images/music.png)
 
 #### 使用
 
