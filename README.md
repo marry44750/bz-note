@@ -34,7 +34,7 @@
 
 - 书籍页
 
-![](images/bookList.png)
+![](https://github.com/marry44750/bz-note/raw/master/images/bookList.png)
 
 ![](images/bookType.png)
 
