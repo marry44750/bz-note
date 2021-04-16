@@ -36,7 +36,9 @@
             <el-button class="btn" type="primary" size="small" @click.stop="save" round>保存</el-button>
             <el-button class="btn" type="primary" size="small" @click.stop="edite" round>{{edt==false?'编辑':'预览'}}</el-button>
           </div>
-          <mavon-editor class="article"  @imgAdd="uploadImg"
+          <mavon-editor class="article"
+                        @imgAdd="uploadImg"
+                        @imgDel="delImg"
                         placeholder="请输入文档内容..."
                         style="height: 100%; width: 80%;float:left"
                         @save="save"
@@ -45,6 +47,7 @@
                         :editable="edt"
                         :subfield="edt"
                         :toolbarsFlag="edt"
+                        ref="md"
           ></mavon-editor>
         </div>
 
@@ -167,20 +170,28 @@
             this.$Message.error(err)
           })
         },
-        uploadImg(pos, file) {
-          var formData = new FormData();
-          formData.append('image', file);
-          this.$axios({
-            url: '文件服务器地址',
-            method: "post",
-            data: formData,
-            headers: {
-              'Content-Type': 'multipart/form-data'
-            }
-          }).then((url) => {
-            //使用服务器返回的图片地址替换原图片地址
-            $vm.$img2Url(pos, url);
+        delImg(pos){
+          getDataByPost('/delImage',{
+            filepath: pos[0]
           })
+            .then(res=>{
+
+            }).catch(err=>{
+
+          })
+        },
+        uploadImg(pos, $file) {
+          let formData = new FormData()
+          formData.append("file",$file)
+          this.$axios({
+            method: 'post',
+            url: '/uploadImage',
+            data:formData
+          }).then(res =>{
+            //上传成功之后 显示图片
+            this.$refs.md.$img2Url(pos, "http://localhost:9090/"+res.data.data.replace('\\','/'));
+          })
+
         },
         handleCommandSort: function (tag) {
           this.choosedTagId = tag.id

@@ -3,10 +3,12 @@ const router = express.Router()
 const md5 = require('md5')
 var multer = require('multer');
 var upload = multer({dest:'static/upload/'})
+var uploadTmp = multer({dest:'static/md/'})
 const fileModel = require('../models/file-model')
 const PDFImage = require("pdf-image").PDFImage;
 const pdfImage = new PDFImage("http://localhost:9090/upload/719e4f4689af487084cee09d8e8dd589");
 const fs = require('fs')
+const axios = require("axios");
 
 router.post('/upload', upload.single('myfile'), function(req, res, next){
   return res.json({
@@ -15,6 +17,29 @@ router.post('/upload', upload.single('myfile'), function(req, res, next){
     data:req.file
   })
   //res.send({ret_code: '0'});
+});
+
+router.post('/uploadImage',uploadTmp.single('file'),function(req, res, next){
+  return res.json({
+    err: false,
+    msg: '文件上传成功',
+    data:req.file.path
+  })
+});
+
+router.post('/delImage',function(req, res, next){
+  fs.unlink(req.body.filepath, (err) => {
+    if(err){
+      return res.json({
+        err: true,
+        msg: '服务器错误'
+      })
+    }
+    return res.json({
+      err: false,
+      msg: '删除成功'
+    })
+  });
 });
 
 

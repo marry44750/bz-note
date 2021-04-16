@@ -339,18 +339,15 @@
         this.$refs.pdf.print(100, [1, 2])
       },
       uploadImg(pos, file) {
-        var formData = new FormData();
-        formData.append('image', file);
+        let formData = new FormData()
+        formData.append("file",$file)
         this.$axios({
-          url: '文件服务器地址',
-          method: "post",
-          data: formData,
-          headers: {
-            'Content-Type': 'multipart/form-data'
-          }
-        }).then((url) => {
-          //使用服务器返回的图片地址替换原图片地址
-          $vm.$img2Url(pos, url);
+          method: 'post',
+          url: '/uploadImage',
+          data:formData
+        }).then(res =>{
+          //上传成功之后 显示图片
+          this.$refs.md.$img2Url(pos, "http://localhost:9090/"+res.data.data.replace('\\','/'));
         })
       },
       handleFullScreen() {
